@@ -12,4 +12,4 @@ from src.clean_data import round_column_values
 #     post_count=100,
 #     comment_count=20)
 
-round_column_values('data/reddit_sentiment_MSFT_2024-09-30_21-42-45.csv.csv', 'Sentiment')
+round_column_values('data/reddit_sentiment_MSFT_2024-09-30_21-42-45.csv', 'Sentiment')
