@@ -1,5 +1,7 @@
 import pandas as pd
 
+# Needed to clean the data to reduce classification amount.
+# now ranges from -1.0, -0.9, -0.8 ... 0.9, 1.0
 def round_column_values(file_path, column_name):
     # Read the CSV file
     df = pd.read_csv(file_path)
